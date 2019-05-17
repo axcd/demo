@@ -14,12 +14,12 @@ body
 {
   width: 140px;
   height: 120px;
-  border:2px solid #CCCCCC;
+  border:2px solid green;
 }
 #d3
 {
   width: 140px
-  height: 30px;
+  height: 20px;
   border:2px solid blue;
 }
 .footer
