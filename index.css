@@ -6,13 +6,15 @@ body
 #d1
 {
   text-align:center;
+  margin:10;
   width: 160px;
   height: 160px;
   border:2px solid #C5C5C5;
   
 }
 #d2
-{
+{ 
+  margin:10;
   width: 80px;
   height: 30px;
   border:2px solid green;
@@ -20,6 +22,7 @@ body
 }
 #d3
 {
+  margin:10;
   width: 40px
   height: 20px;
   border:2px solid blue;
