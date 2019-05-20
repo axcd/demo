@@ -5,6 +5,7 @@ body
 }
 #d1
 {
+  box-orient:vertical;
   text-align:center;
   margin:10;
   width: 160px;
