@@ -1,11 +1,5 @@
-body 
-{
-  padding-top: 50px;
-  padding-bottom: 33px;
-}
 #d1
 {
-  box-orient:vertical;
   text-align:center;
   margin:10;
   width: 160px;
@@ -16,16 +10,16 @@ body
 #d2
 { 
   margin:10;
-  width: 80px;
-  height: 30px;
+  width: 60px;
+  height: 40px;
   border:2px solid green;
   
 }
 #d3
 {
   margin:10;
-  width: 40px
-  height: 20px;
+  width: 60px
+  height: 40px;
   border:2px solid blue;
   
 }
