@@ -1,3 +1,8 @@
+
+document.write("<p>UserAgent: ")
+document.write(navigator.userAgent + "</p>")
+
+
 $(function(){
     $("#add").click(function(){
          $.ajax({
