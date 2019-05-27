@@ -1,6 +1,7 @@
 
 document.write("<p>UserAgent: ")
 document.write(navigator.userAgent + "</p>")
+document.write(navigator.userAgent.test("Mobile")+ "</p>")
 
 
 $(function(){
