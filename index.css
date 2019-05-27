@@ -2,8 +2,8 @@
 {
   text-align:center;
   margin:auto;
-  width: 160px;
-  height: 160px;
+  width: auto;
+  height: auto;
   border:2px solid #C5C5C5;
   
 }
@@ -11,7 +11,7 @@
 { 
   margin: 10px;
   width: 140px;
-  height: 60px;
+  height: 140px;
   border: 2px solid green;
   
 }
@@ -19,7 +19,7 @@
 {
   margin: 10px;
   width: 140px;
-  height: 60px;
+  height: 30px;
   border: 2px solid blue;
   
 }
