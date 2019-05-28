@@ -7,14 +7,14 @@ body
 {
   text-align:center;
   width: 320px;
-  height: 170px; 
+  height: 180px; 
   border:2px solid #555555; 
 }
 
 .d1
 {
   text-align:center;
-  margin: 0px auto;
+  margin: 2px;
   width: auto;
   height: auto; 
   float: left;
