@@ -8,9 +8,9 @@
 .d1
 {
   text-align:center;
-  margin: 0 auto;
-  width: 150px;
-  height: 185px; 
+  margin: 3px;
+  width: auto;
+  height: auto; 
   float: left;
   border:2px solid #C5C5C5; 
 }
