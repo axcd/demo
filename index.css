@@ -1,25 +1,24 @@
-#d1
+.d1
 {
   text-align:center;
   margin:auto;
   width: 150px;
   height: 160px;
-  border:2px solid #C5C5C5;
-  
+  border:2px solid #C5C5C5; 
 }
-#d2
+
+.d2
 { 
   margin: 5px;
   width: 140px;
   height: 140px;
   border: 2px solid green;
-  
 }
-#d3
+
+.d3
 {
   margin: 5px;
   width: 140px;
   height: 20px;
-  border: 2px solid blue;
-  
+  border: 2px solid blue;  
 }
