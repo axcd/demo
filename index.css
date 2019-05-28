@@ -6,9 +6,9 @@ body
 .d
 {
   text-align:center;
-  margin: 5px;
+  margin: 5px auto;
   width: 330px;
-  height: 190px; 
+  height: 200px; 
   border:2px solid #555555; 
 }
 
