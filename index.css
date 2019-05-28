@@ -6,6 +6,7 @@ body
 .d
 {
   text-align:center;
+  margin: 5px;
   width: 330px;
   height: 190px; 
   border:2px solid #555555; 
@@ -14,7 +15,7 @@ body
 .d1
 {
   text-align:center;
-  margin: 2px;
+  margin: 5px;
   width: auto;
   height: auto; 
   float: left;
