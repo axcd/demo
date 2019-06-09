@@ -10,7 +10,7 @@
 
 <script>
   $("p").click(function(){
-   alert(this);
+   alert(this.nodeName);
    this.find("span")
        .css('color','red');
  });
