@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <body>
-<p id="demo">点击这个按钮，获得您的坐标：</p>
-<button onclick="getLocation()">试一下</button>
+<p id="demo"></p>
+<button onclick="getLocation()">点击得惊喜</button>
 <script>
 var x=document.getElementById("demo");
 function getLocation()
@@ -15,8 +15,8 @@ function getLocation()
   }
 function showPosition(position)
   {
-  x.innerHTML="Latitude: " + position.coords.latitude + 
-  "<br />Longitude: " + position.coords.longitude;  
+  x.innerHTML="经度: " + position.coords.latitude + 
+  "<br />纬度: " + position.coords.longitude;  
   }
 </script>
 </body>
