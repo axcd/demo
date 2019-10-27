@@ -8,11 +8,7 @@ var x=document.getElementById("demo");
 
 window.οnlοad=function()
   {
-  if (navigator.geolocation)
-    {
-    navigator.geolocation.watchPosition(showPosition);
-    }
-  else{x.innerHTML="Geolocation is not supported by this browser.";}
+  x.innerHTML="Geolocation is not supported by this browser.";
   }
   function showPosition(position)
   {
