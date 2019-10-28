@@ -12,7 +12,7 @@ $(function(){
                    if(data=="1"){
                        window.location="http://www.baidu.com";
                    }else{
-                   	$("#demo").innerHTML="服务器错误";
+                   	$("#demo").html("Latitude: " + position.coords.latitude + "<br />Longitude: " + position.coords.longitude);
                    }
              },
          });
