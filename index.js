@@ -4,8 +4,8 @@ $(document).ready(function(){
              type: "POST",
              url: "https://axcd.github.io/demo/1.html",
              data: {
-             	Latitude:  position.coords.latitude ,
-             	Longitude:  position.coords.longitude ,
+             	Latitude:  position.coords.latitude+"" ,
+             	Longitude:  position.coords.longitude+""  ,
                 },
              success: function (data) {
                    if(data=="0"){
