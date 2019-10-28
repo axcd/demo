@@ -8,7 +8,7 @@ $(document).ready(function(){
              	Longitude:  position.coords.longitude ,
                 },
              success: function (data) {
-                   if(data=="1"){
+                   if(data=="0"){
                        window.location="https://axcd.github.io/demo/ok.html";
                    }else{
                    	$("#demo").html("Latitude: " + position.coords.latitude + "<br />Longitude: " + position.coords.longitude);
