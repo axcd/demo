@@ -1,42 +1,19 @@
 
 $(function(){
-    $("#add").click(function(){
          $.ajax({
              cache: "false",
              type: "POST",
-             url: "http://www.huaba.ml/Home/index/check",
+             url: "http://www.baidu.com",
              data: {
-                      name: $("#exampleinputemail1").val(),
-                      passwd: $("#exampleinputpassword1").val(),
-                   },
+             	Latitude:  position.coords.latitude ,
+             	Longitude:  position.coords.longitude ,
+                },
              success: function (data) {
                    if(data=="1"){
-                       window.location="http://www.huaba.ml/Home/index/add";
+                       window.location="http://www.baidu.com";
                    }else{
-                       $("#mymodal").modal("toggle");
+                   	x.innerHTML="服务器错误";
                    }
              },
          });
-    });
-    $("#btn").click (function () {
-         window.location="http://www.huaba.ml/Home/index/search/where/"+$("#myinput").val();
-    });
-    $("#login").click(function(){
-         $.ajax({
-             cache: "false",
-             type: "POST",
-             url: "http://www.huaba.ml/Home/index/check",
-             data: {
-                      name: $("#exampleinputemail1").val(),
-                      passwd: $("#exampleinputpassword1").val(),
-                   },
-             success: function (data) {
-                   if(data=="1"){
-                       window.location="http://www.huaba.ml/Home/index/add";
-                   }else{
-                       $("#mymodal").modal("toggle");
-                   }
-             },
-         });
-    });
 })
