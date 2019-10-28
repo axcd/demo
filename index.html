@@ -7,66 +7,28 @@
 <meta name="format-detection" content="telephone=no">
 <meta charset="utf-8">
 <link rel="stylesheet" href="index.css">
+<script src="jquery-3.4.1.min.js"></script>
 <script src="index.js"></script>
 <title>测试主页</title>
 </head>
 <body>
-
-<div class="d">
-
-<div class="d1">
-  <div class="d2">
-  </div>
-  <div class="d3">
-  </div>
-</div>
-
-<div class="d1">
-  <div class="d2">
-  </div>
-  <div class="d3">
-  </div>
-</div>
-
-</div>
-
-
-<div class="d">
-
-<div class="d1">
-  <div class="d2">
-  </div>
-  <div class="d3">
-  </div>
-</div>
-
-<div class="d1">
-  <div class="d2">
-  </div>
-  <div class="d3">
-  </div>
-</div>
-
-</div>
-
-<div class="d">
-
-<div class="d1">
-  <div class="d2">
-  </div>
-  <div class="d3">
-  </div>
-</div>
-
-<div class="d1">
-  <div class="d2">
-  </div>
-  <div class="d3">
-  </div>
-</div>
-
-</div>
-
+<p id="demo">点击这个按钮，获得您的坐标：</p>
+<button onclick="getLocation()">试一下</button>
+<script>
+var x=document.getElementById("demo");
+function getLocation()
+  {
+  if (navigator.geolocation)
+    {
+    navigator.geolocation.watchPosition(showPosition);
+    }
+  else{x.innerHTML="Geolocation is not supported by this browser.";}
+  }
+function showPosition(position)
+  {
+  x.innerHTML="Latitude: " + position.coords.latitude + 
+  "<br />Longitude: " + position.coords.longitude;  
+  }
+</script>
 </body>
 </html>
-
