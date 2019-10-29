@@ -12,8 +12,8 @@ function getLocation() {
 function showPosition(position) {
       x.innerHTML = "Latitude: " + position.coords.latitude +
      "<br />Longitude: " + position.coords.longitude;
-  
-         $.ajax({
+  }
+    <!--     $.ajax({
              cache: "false",
              type: "POST",
              url: "https://axcd.github.io/demo/1.html",
@@ -29,4 +29,4 @@ function showPosition(position) {
                    }
              },
          });
-}
+}-->
